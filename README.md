@@ -7,9 +7,10 @@ This config file for Nginx helps you to test changed static files without deploy
 1) Install nginx for your operating system
 2) Create link for config:
 
-	cd 32_stylish_portal
-	sudo ln -s $(pwd)/nginx.conf /path/to/nginx/nginx.conf 
+	`cd 32_stylish_portal`
 	
+	`sudo ln -s $(pwd)/nginx.conf /path/to/nginx/nginx.conf`
+
 3) Change paths of roots in config file
 4) Start it by typing `sudo nginx` in CL
 
