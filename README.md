@@ -8,11 +8,14 @@ This config file for Nginx helps you to test changed static files without deploy
 2) Create link for config:
 
 	`cd 32_stylish_portal`
-	
+
 	`sudo ln -s $(pwd)/nginx.conf /path/to/nginx/nginx.conf`
 
 3) Change paths of roots in config file
 4) Start it by typing `sudo nginx` in CL
+5) Go to 
+ [http://127.0.0.1:8010](http://127.0.0.1:8010) (proxy pass for [htmlbook.ru/](http://htmlbook.ru/))
+ [http://127.0.0.1:8011](http://127.0.0.1:8011) (proxy pass for [djbook.ru/](https://djbook.ru/))
 
 # Project Goals
 
